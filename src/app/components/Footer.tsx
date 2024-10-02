@@ -41,7 +41,7 @@ const Footer = () => {
           <div className="flex  justify-between  flex-col">
             <h1 className="text-lg text-orange-500 font-semibold">AIDES</h1>
             <p>
-              N'hésitez pas à nous contacter pour toute demande de
+              N&apos;hésitez pas à nous contacter pour toute demande de
               renseignements ou à <br /> passer nous voir directement sur douala
               !
             </p>
