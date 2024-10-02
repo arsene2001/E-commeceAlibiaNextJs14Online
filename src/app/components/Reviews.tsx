@@ -4,7 +4,7 @@ const Reviews = async ({ productId }: { productId: string }) => {
   const reviewRes = await fetch(
     `https://api.fera.ai/v3/public/reviews?product.id=${productId}&public_key=${process.env.NEXT_PUBLIC_FERA_ID}`
   );
-  const reviews = await reviewRes.json();v 
+  const reviews = await reviewRes.json();
 
   return reviews.data.map((review: any) => (
     <div className="flex flex-col gap-4" key={review.id}>
